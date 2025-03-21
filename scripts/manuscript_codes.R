@@ -24,7 +24,10 @@ library(brms)#Interfacing Stan for Bayesian models
 #same number of replicates for each strain (NAs added to data if there was not 
 #equal amount of replicates measured).
 
-fluct <- read.csv("natpop_fluct_mv.csv", header = T, dec = ".", sep = ",")
+#natpop_fluct_mv.csv
+
+
+fluct <- read.csv("growth_rate_data.csv", header = T, dec = ".", sep = ",")
 
 head(fluct)
 
